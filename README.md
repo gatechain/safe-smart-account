@@ -10,6 +10,7 @@ PK=0x
 ```
 然后执行
 ```
+npm install
 npm run build
 npm run deploy custom
 ```
@@ -17,5 +18,5 @@ npm run deploy custom
 
 # 创建一个自己的多签合约
 ```
-SAFE_OWNERS=0x,0x,0x SAFE_THRESHOLD= RPC_URL= PRIVATE_KEY=0x  ./create-safe-with-cast.sh
+SAFE_OWNERS=0x,0x,0x SAFE_THRESHOLD= RPC_URL= PRIVATE_KEY=0x  ./scripts/create-safe-with-cast.sh
 ```
